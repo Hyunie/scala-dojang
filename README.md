@@ -1,4 +1,4 @@
 scala-dojang
 ============
 
-scala coding dojang
+각 폴더안에 계정으로 만들기 
