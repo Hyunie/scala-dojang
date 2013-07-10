@@ -1,0 +1,21 @@
+
+6. 
+scala> def test(s:String)={
+     | var sum:Long = 1;
+     | for (ch <- s) sum *= ch.toLong
+     | sum
+     | }
+test: (s: String)Long
+scala> println(test("Hello"))
+9415087488
+
+7. 
+scala> def test(s:String)={
+     | var sum:Long = 1
+     | s.foreach((c:Char)=>sum*=c.toLong)
+     | sum
+     | }
+test: (s: String)Long
+scala> println(test("Hello"))
+9415087488
+
